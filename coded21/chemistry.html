@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .anim:hover{
+            animation-name: example;
+            animation-duration: 1s;
+        }
+        @keyframes example{
+            0% {transform: translateY(6px);}
+            25% {transform: translateY(-12px);}
+            50% {transform: translateY(8px);}
+            75% {transform: translateY(-6px);}
+            100% {transform: translateY(2px);}
+        }
+        .anim2:hover{
+            animation-name: example2;
+            animation-duration: 1s;
+        }
+        @keyframes example2 {
+            0% {background-color: #495867;}
+            50% {background-color: #ECC8AF;}
+            100%{background-color: #495867;}
+        }
+        .nav-link{
+            color: black !important;
+            padding: 20px;
+        }
+        .nav-link:hover{
+            color: white !important;
+            background-color: #495867;
+        }
+        .nav-link.ddl-menu{
+            color:black !important;
+        }
+        .nav-link.ddl-menu:hover{
+            color: white !important;
+        }
+        .card{
+            background-color: #495867;
+            color: white;
+            color: #495867;
+        }
+        .btn{
+            white-space: normal;
+        }
+    </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/2a6b2ab06b.js" crossorigin="anonymous"></script>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><h1 class="display-3">Contify</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link h3 mx-1 font-weight-light text-uppercase" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle h3 font-weight-light text-uppercase mx-1 ddl-menu" href="#" id="categrioes" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            subjects
+                      </a>
+    <body>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="">
+            </a>
+            <a class="dropdown-item" href="chemistry.html">Chemistry</a>
+            <a class="dropdown-item" href="physics.html">Physics</a>
+            <a class="dropdown-item" href="precalculus.html">precalculus</a>
+            <a class="dropdown-item" href="bichemistry.html">Biochemistry</a>
+            <a class="dropdown-item" href="english.html">English</a>
+            <a class="dropdown-item" href="geometry.html">Geometry</a>
+            <a class="dropdown-item" href="biology.html">Biology</a>
+            <a class="dropdown-item" href="arabic.html">Arabic</a>
+            <a class="dropdown-item" href="french.html">French</a>
+            <a class="dropdown-item" href="islamic.html">Islamic</a>
+            <a class="dropdown-item" href="socialstudies.html">SocailStudies</a>
+            <a class="dropdown-item" href="art.html">Art</a>
+            
+
+        
+        </li>
+        <li class="nav-item">
+            
+          <a class="nav-link mx-1 font-weight-light text-uppercase h3" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            
+            <!-- <a class="nav-link mx-1 font-weight-light text-uppercase h3" href="#why">Why Mogenic?</a> -->
+          </li>
+        <li class="nav-item">
+            
+            <a class="nav-link mx-1 font-weight-light text-uppercase h3" href="#contact">Contact</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-flex" style="background-color: #ECC8AF;">
+   
+                            <!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                              <title>Bootstrap Example</title>
+                              <meta charset="utf-8">
+                              <meta name="viewport" content="width=device-width, initial-scale=1">
+                              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                              <style>
+                                /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+                                .navbar {
+                                  margin-bottom: 50px;
+                                  border-radius: 0;
+                                }
+                                
+                                /* Remove the jumbotron's default bottom margin */ 
+                                 .jumbotron {
+                                  margin-bottom: 0;
+                                }
+                               
+                                /* Add a gray background color and some padding to the footer */
+                                footer {
+                                  background-color: #f2f2f2;
+                                  padding: 25px;
+                                }
+                              </style>
+                            </head>
+                            <body>
+                            
+                            <div class="container">    
+                              <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="panel panel-primary">
+                                    <div class="panel-heading">Assigment</div>
+                                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4"> 
+                                  <div class="panel panel-danger">
+                                    <div class="panel-heading">Files</div>
+                                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4"> 
+                                  <div class="panel panel-success">
+                                    <div class="panel-heading">Tasks</div>
+                                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><br>
+                            
+                            <div class="container">    
+                              <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="panel panel-primary">
+                                    <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4"> 
+                                  <div class="panel panel-primary">
+                                    <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4"> 
+                                  <div class="panel panel-primary">
+                                    <div class="panel-heading">BLACK FRIDAY DEAL</div>
+                                    <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><br><br>
+                            
+                            <div class="container-flex bg-dark" id="contact">
+                                <div class="container">
+                                    <h3 class="display-4 text-center mb-2 text-white">Contact</h3>
+                                    <div class="row">
+                                        <div class="col-12 text-white p-2 text-center">
+                                            <h5 class="font-weight-light my-3">Contify@gmail.com</h5>
+                                            <h5 class="font-weight-light my-3">+965 99737836</h5>
+                                            <h5 class="font-weight-light my-3">Kuwait City</h5>
+                                            <a class="mx-2" href="#"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
+                                            <a class="mx-2" href="#"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a>
+                                            <a class="mx-2" href="https://twitter.com/mogenickwt"><i class="fab fa-twitter" style="font-size: 40px;"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="row text-white p-3">
+                                        <div class="col-12">
+                                            <h6 class="text-center">&copy copyrights Contify 2021</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                      
+                            
+                            </body>
+                            </html>
+</body>
+</html>

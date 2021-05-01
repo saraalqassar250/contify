@@ -1,0 +1,291 @@
+<html>
+
+<head>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .anim:hover {
+            animation-name: example;
+            animation-duration: 1s;
+        }
+
+        @keyframes example {
+            0% {
+                transform: translateY(6px);
+            }
+
+            25% {
+                transform: translateY(-12px);
+            }
+
+            50% {
+                transform: translateY(8px);
+            }
+
+            75% {
+                transform: translateY(-6px);
+            }
+
+            100% {
+                transform: translateY(2px);
+            }
+        }
+
+        .anim2:hover {
+            animation-name: example2;
+            animation-duration: 1s;
+        }
+
+        @keyframes example2 {
+            0% {
+                background-color: #495867;
+            }
+
+            50% {
+                background-color: #ECC8AF;
+            }
+
+            100% {
+                background-color: #495867;
+            }
+        }
+
+        .nav-link {
+            color: black !important;
+            padding: 20px;
+        }
+
+        .nav-link:hover {
+            color: white !important;
+            background-color: #495867;
+        }
+
+        .nav-link.ddl-menu {
+            color: black !important;
+        }
+
+        .nav-link.ddl-menu:hover {
+            color: white !important;
+        }
+
+        .card {
+            background-color: #495867;
+            color: white;
+            color: #495867;
+        }
+
+        .btn {
+            white-space: normal;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2a6b2ab06b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h1 class="display-3">Contify</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link h3 mx-1 font-weight-light text-uppercase" href="home.html">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle h3 font-weight-light text-uppercase mx-1 ddl-menu" href="#"
+                        id="categrioes" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        subjects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">
+                        </a>
+                        <a class="dropdown-item" href="chemistry01.html">Chemistry</a>
+                        <a class="dropdown-item" href="physics.html">Physics</a>
+                        <a class="dropdown-item" href="precalculus.html">precalculus</a>
+                        <a class="dropdown-item" href="bichemistry.html">Biochemistry</a>
+                        <a class="dropdown-item" href="english.html">English</a>
+                        <a class="dropdown-item" href="geometry.html">Geometry</a>
+                        <a class="dropdown-item" href="biology.html">Biology</a>
+                        <a class="dropdown-item" href="arabic.html">Arabic</a>
+                        <a class="dropdown-item" href="french.html">French</a>
+                        <a class="dropdown-item" href="islamic.html">Islamic</a>
+                        <a class="dropdown-item" href="socialstudies.html">Socail Studies</a>
+                        <a class="dropdown-item" href="art.html">Art</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1 font-weight-light text-uppercase h3" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <!-- <a class="nav-link mx-1 font-weight-light text-uppercase h3" href="#why">Why Mogenic?</a> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-1 font-weight-light text-uppercase h3" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-flex" style="background-color: #ECC8AF;">
+        <div class="container py-5">
+
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2 text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Chemistry</h5>
+                            <a href="chemistry01.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2 text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG" sizes="70px">
+                        <div class="card-body">
+                            <h5 class="card-title">Physics</h5>
+                            <a href="physics.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Precalculus</h5>
+                            <a href="precalculus.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Geometry</h5>
+                            <a href="geometry.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Biochemistry</h5>
+                            <a href="bichemistry.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Arabic</h5>
+                            <a href="arabic.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Biology</h5>
+                            <a href="biology.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">English</h5>
+                            <a href="english.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">SocailStudies</h5>
+                            <a href="socailStudies.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Islamic Studies</h5>
+                            <a href="islamic.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">French</h5>
+                            <a href="french.html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-2">
+                    <div class="card p-2  text-center anim" style="height: 100%;">
+                        <img class="card-img-top" src="IMG_1222.PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Biology</h5>
+                            <a href=".html" class="btn btn-primary">For more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-flex bg-dark" id="contact">
+        <div class="container">
+            <h3 class="display-4 text-center mb-2 text-white">Contact</h3>
+            <div class="row">
+                <div class="col-12 text-white p-2 text-center">
+                    <h5 class="font-weight-light my-3">Contify@gmail.com</h5>
+                    <h5 class="font-weight-light my-3">+965 99737836</h5>
+                    <h5 class="font-weight-light my-3">Kuwait City</h5>
+                    <a class="mx-2" href="#"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
+                    <a class="mx-2" href="#"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a>
+                    <a class="mx-2" href="https://twitter.com/mogenickwt"><i class="fab fa-twitter"
+                            style="font-size: 40px;"></i></a>
+                </div>
+            </div>
+            <div class="row text-white p-3">
+                <div class="col-12">
+                    <h6 class="text-center">&copy copyrights Contify 2021</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
